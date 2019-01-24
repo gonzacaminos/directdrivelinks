@@ -1,0 +1,123 @@
+$lightGrey: #b5b5b5;
+$yellow: #FFD04B;
+$green: #1FA463;
+$blue: #4688F4;
+
+.row {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.nav {
+  padding: 10px;
+  background: darken($blue,10%);
+  color: lighten($lightGrey, 35%);
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+
+  .credits {
+    text-align:right;
+    a { color: white; }
+  }
+}
+
+.link-input {
+  width: 90%;
+  max-width: 500px;
+  font-size: 12px;
+}
+.block {
+  text-align: center;
+
+  .input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+
+  label {
+    border: 1px dashed $green;
+    padding: 10px;
+  }
+
+  label:hover, input[type=radio]:checked + label  {
+    background: lighten($green,45%);
+    cursor: pointer;
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  img {
+    max-width: 100%;
+    width: 40px;
+  }
+}
+
+
+.link-block {
+  background: lighten($lightGrey,25%);
+  padding: 20px 0px;
+  p {
+    margin: 0
+  }
+  select {
+    &.file {
+      display: none !important;
+    }
+    option {
+      display: none;
+    }
+
+    &.docs {
+      option.docs {
+        display: block;
+      }
+    }
+
+    &.sheets {
+      option.sheets {
+        display: block;
+      }
+    }
+
+    &.slides {
+      option.slides {
+        display: block;
+      }
+    }
+
+  }
+
+}
+
+.result-block {
+  input {
+    background: lighten($lightGrey, 5%);
+    padding: 15px;
+    border-color: lighten($lightGrey, 5%);
+    width: 90%;
+    max-width: 500px;
+  }
+  .button {
+    display: none;
+  }
+  &.hasLink {
+    input {
+      background: lighten($yellow, 5%);
+      border-color: lighten($yellow, 5%);
+    }
+    .button {
+      display: inline-block;
+    }
+  }
+  margin-top: 20px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
