@@ -17,7 +17,7 @@
             <p class="title">Direct Drive Links</p>
           </div>
           <div class="credits columns six">
-            Developed with <i class="fas fa-heart"></i> and  <a href="http://angularjs.org"><i class="fab fa-angular"></i></a> by <a href="http://altg.io">AltG</a>.  Based on: <a href="https://www.labnol.org/internet/direct-links-for-google-drive/28356/" target="_blank">this blog post</a>
+            Developed with <i class="fas fa-heart"></i> and  <a href="http://angularjs.org"><i class="fab fa-angular"></i></a> by <a href="http://gonza.io">Gonza</a>.  Based on: <a href="https://www.labnol.org/internet/direct-links-for-google-drive/28356/" target="_blank">this blog post</a>
           </div>
         </div>
       </div>
